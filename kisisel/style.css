@@ -1,0 +1,170 @@
+/* CSS DOSYASI*/
+
+/* Boşlukları Sıfırlama */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#sayfa {
+    width: 400px;
+    min-height: 742px;
+    border-style: solid;
+    border-width: 2px;
+    margin: auto;
+}
+
+/* Banner */
+
+#banner{
+    width: 398px;
+    height: 160px;
+    border-style: double;
+    border-width: 1px;
+    margin: auto; 
+    background-color: aqua;
+}
+
+/* Logo */
+
+#logo{
+    width: 100px;
+    height: 134px;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+
+/* Sosyal Medya İkonları */
+#sosyal{
+    width: 140px;
+    height: 40px;
+    float: right;
+    position: relative;
+    bottom: -110px;
+    
+}
+
+/* Ana Menü */
+
+#anamenu{
+    width: 398px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto; 
+    background-color: yellowgreen;
+}
+
+#anamenu ul{
+    list-style-type: none;
+    background-color: rgb(158, 150, 225);
+}
+
+#anamenu ul li{
+    border-style: solid;
+    border-width: 3px;
+    width: 100px;
+    border-radius: 7px;
+    border-color: cornflowerblue;
+    background-color: white;
+    float: left;
+    padding: 7px;
+    text-align: center;
+    margin: 6px;
+
+}
+
+#anamenu ul a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+#anamenu ul a:link{
+    color: darkorchid;
+}
+
+#anamenu ul a:visited{
+    color: brown;
+}
+
+#anamenu ul a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+#anamenu ul a:active{
+    color: red;
+}
+
+/* İçerik ve Yan Menü Kodları */
+
+#icerik{
+    width: 300px;
+    min-height: 400px;
+    border-style: solid;
+    border-width: 1px;
+    float: left; 
+    background-color: aqua;
+}
+  
+#yanmenu{
+    width: 96px;
+    min-height: 400px;
+    border-style: solid;
+    border-width: 1px;
+    float: left; 
+    background-color: rgb(213, 20, 62);
+}
+
+.resim{
+    float: left;
+    width: 100px;
+    margin: 10px;
+
+}
+
+.metin{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.baslik{
+    color: chartreuse;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Alt Menu */
+
+#altmenu{
+    width: 398px;
+    height: 126px;
+    border-style: solid;
+    border-width: 1px;
+    float: left; 
+    background-color: coral;
+    text-align: center;
+    color: black;
+
+}
+
+#altmenu a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+#altmenu a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
